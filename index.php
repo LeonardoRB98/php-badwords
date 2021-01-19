@@ -1,6 +1,6 @@
 <?php
-$paragrafo = str_replace($badWord, '***', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
 $badWord = $_GET['censura'];
+$paragrafo = str_replace($badWord, '***', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
 ?>
 
 <!DOCTYPE html>
